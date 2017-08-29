@@ -9,17 +9,25 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+	I don't know.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    	Forks are a way to get a repository that belongs to someone else and add that
+	repository to your account on github. Cloning is a way to add a repository
+	from your github account to your local repository. Branching acts on a 
+	repository and lets you make a new version of your repository, one that is
+	different than the master branch.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	Your master copy can then be merged with the remote copy and any
+	conflicts that arise can be mediated by you. Once the conflicts
+	have been resolved pushing your master repository back to github
+	should pose no issues.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
