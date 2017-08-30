@@ -32,7 +32,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	I would use another version control system such as Subversion, or I would
+	use Google Docs. Considering that Google Docs is easy to use without much
+	of a learning curve, if none of your collaborators know svn then this would
+	be the best choice. Alternatively, if everyone on the team is familiar with
+	svn than that would be a more efficient and reliable source.  
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
