@@ -21,7 +21,6 @@ think it offers?
 
 
 
-
 How can you use the staging area to make sure you have one commit 
 per logical change?
 	You can place files that are related to one change in the
@@ -29,6 +28,7 @@ per logical change?
 	related to other changes are left in the working directory 
 	are ready to be added to the staging area and comitted at
 	your discretion.
+
 
 
 What are some situations when branches would be helpful in keeping 
@@ -49,12 +49,14 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we 
 represent it in the diagram the way we do?
 	Merging two branches together creates a node in the tree
-	with two parents. 
+	with two parents. Also this brings the branch into view
+	of the master branches commit history thus making it a 
+	permanent record of the master branch.
 
 
 
 What are the pros and cons of Git's automatic merging vs. always
 doing merges manually?
 	Pros are all the work is done for you. Cons are that it isn't
-	perfect sometimes conflicts arise and must they be resolved
+	perfect sometimes conflicts arise and they must be resolved
 	manually.
