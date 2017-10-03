@@ -9,7 +9,13 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-	I don't know.
+	If Git stays up to date with your repository then inevitably conflicts will
+	occur. For example you just edited file 'A' and Git pulls the latest remote
+	repository which also has an edited file 'A', if these changes overlap you 
+	must now deal with a conflict. The main difference is that when you manually
+	pull from a repository you have the choice of when to deal with those 
+	conflicts, if Git pulls automatically you are inconveniently taken away from
+	your task. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
@@ -41,8 +47,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Making a change in a separate branch would be beneficial if you want to try out
-    different code or differnet versions of an applications. In either case you're
-    not sure what you'd like to do, but you want to leave your options open. Branches
-    will save your ideas or experiments so you can come back to them later.
+    	Making a change in a separate branch would be beneficial if you want to try out
+    	different code or differnet versions of an applications. In either case you're
+    	not sure what you'd like to do, but you want to leave your options open. Branches
+    	will save your ideas or experiments so you can come back to them later.
     
