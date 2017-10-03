@@ -17,7 +17,7 @@ automatically stay up-to-date with your remote repository?
 	conflicts, if Git pulls automatically you are inconveniently taken away from
 	your task. 
 
-Describe the differences between forks, clones, and branches.  When would you
+Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
 
     	Forks are a way to get a repository that belongs to someone else and add that
